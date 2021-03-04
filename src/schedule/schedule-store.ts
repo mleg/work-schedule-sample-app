@@ -1,8 +1,8 @@
 import { action, computed, makeObservable, observable } from "mobx";
 import { ShopsRefItem } from "../refs/refs-api-models";
 import { RefsStore } from "../refs/refs-store";
-import { LoaderStore } from "../store/components/loader-store";
-import { ShowHideStore } from "../store/components/show-hide-store";
+import { LoaderStore } from "../store/helper-stores/loader-store";
+import { ShowHideStore } from "../store/helper-stores/show-hide-store";
 import { ScheduleData } from "./schedule-api-models";
 import { DAYS } from "./schedule-constants";
 import { scheduleToServerData } from "./schedule-fns";

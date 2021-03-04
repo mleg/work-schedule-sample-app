@@ -1,6 +1,6 @@
 import { computed, makeObservable } from "mobx";
 import { generateId } from "../../common/utils";
-import { MomentStore } from "../../store/components/moment-store";
+import { MomentStore } from "../../store/helper-stores/moment-store";
 import { IntervalData } from "../schedule-api-models";
 import { IntervalModel, MomentModel, ShopDayModel } from "../schedule-types";
 
